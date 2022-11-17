@@ -27,7 +27,7 @@
         .row.justify-content-center
           .col-6.col-lg-2.mb-4(data-aos="fade-right")
             figure
-              img(src="@/assets/curso/temas/tema2/img2.png", alt="alt").img-flotante
+              img(src="@/assets/curso/temas/tema2/img2.svg", alt="alt").img-flotante
           .col-lg-10
             p Luego de ver el video y reflexionar sobre su futura labor en el control de la seguridad digital, es importante comprender lo necesario que debe ser el proceso de inventariado de los activos tecnológicos de su compañía. A continuación, explicaremos más a fondo la teoría, procedimientos y pautas generales que deben ser considerados a la hora de iniciar en esta importante tarea de elaborar el inventario de activos.
 
@@ -189,7 +189,7 @@
     .row.justify-content-center.my-5
       .col-6.col-lg-2.mb-4(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/tema2/img15.png", alt="alt").img-flotante
+          img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt").img-flotante
       .col-lg-10
         p Posterior a tener claridad sobre el tipo de inventario, es importante realizar una fase de planeación previa al inicio de la labor. Normalmente, la planeación y la ejecución son procesos ligados que no suelen estar asignados a una sola persona en particular, por el contrario, por temas de confiabilidad y transparencia, los procesos de inventario involucran a equipos enteros de trabajo y requieren de la distribución de asignaciones específicas.
         p El grupo de trabajo deberá tener en consideración los siguientes puntos al planear y ejecutar un proceso de inventariado:

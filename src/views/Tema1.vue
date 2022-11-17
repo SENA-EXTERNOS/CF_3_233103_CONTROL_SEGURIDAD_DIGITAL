@@ -12,7 +12,7 @@
         .row.justify-content-center
           .col-6.col-lg-2.mb-4.mt-3(data-aos="fade-right")
             figure
-              img(src="@/assets/curso/temas/tema1/img1.png", alt="alt").img-flotante
+              img(src="@/assets/curso/temas/tema1/img1.svg", alt="alt").img-flotante
           .col-lg-10
             .bloque-texto-b1
               .bloque-texto-b__texto
@@ -148,14 +148,14 @@
     .row.justify-content-center
       .col-6.col-lg-2.mb-4.mt-3(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/tema1/img10.png", alt="alt").img-flotante
+          img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt").img-flotante
       .col-lg-10
         p Para comprender de manera más fácil los conceptos de las redes de datos, es importante comprender cómo viaja la información entre los dispositivos de la red, y para explicarlo de manera sencilla, diremos que en su gran mayoría las máquinas ‘hablan’ unas con otras mediante la transmisión de secuencias de bits. El bit, es la unidad mínima de información en informática. Mediante la unión de cadenas de hasta millones de bits se forman códigos, que luego pueden ser traducidos por el programa adecuado en texto, material multimedia o instrucciones, los bits solo pueden contener dos diferentes estados o valores: el cero (0) y el uno (1), símbolos usados para representar los dos posibles estados de un bit en el sistema binario, ya que los dispositivos funcionan mediante señales eléctricas. Estos estados representan la presencia o ausencia de señal eléctrica.
 
     .row.justify-content-center.my-5
       .col-lg-7
         figure
-          img(src="@/assets/curso/temas/tema1/img11.png", alt="alt")    
+          img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")    
 
     .row.my-5
       .tarjeta.color-primario--borde.p-2
@@ -207,7 +207,7 @@
     .row.justify-content-center.my-5
       .col-lg-9
         figure
-          img(src="@/assets/curso/temas/tema1/img14.png", alt="alt")        
+          img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt")        
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -360,7 +360,7 @@
           .row(titulo="Red PAN").justify-content-center
             .col-9.col-lg-4
               figure
-                img(src="@/assets/curso/temas/tema1/img21.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img21.svg", alt="alt")
 
             .col-lg-8
               p Este tipo de red nace de un concepto relativamente nuevo en comparación con las demás, sus siglas se traducen como red de área personal, y comprende la conexión y transferencia de datos que puede existir entre los diferentes dispositivos de uso personal, como un computador personal, parlantes inalámbricos, teléfonos inteligentes, auriculares, smartwatch, entre otros. Todos se integran en función del bienestar de la persona mediante tecnologías como USB o Bluetooth.
@@ -368,7 +368,7 @@
           .row(titulo="Red LAN").justify-content-center
             .col-9.col-lg-4
               figure
-                img(src="@/assets/curso/temas/tema1/img22.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img22.svg", alt="alt")
 
             .col-lg-8
               p Red de área local, esta es posiblemente la que más nos interese. Hace referencia a las redes que se conforman dentro de un mismo edificio, en un área relativamente cercana, o en otros términos, al conjunto de equipos conectados a un mismo enrutador. Estas redes pueden o no tener conexión a internet. Permiten el intercambio de información de manera interna y son muy comunes en oficinas, salas de sistemas, hogares o dependencias que comparten físicamente un mismo espacio. Para conformar este tipo de red es necesario implementar dispositivos de red como routers, puntos de accesos o #[i switch] de red que administren la red, controlen el tráfico de información y permitan la conexión de diferentes equipos por medios como el cable Ethernet o wifi. 
@@ -376,7 +376,7 @@
           .row(titulo="Red MAN").justify-content-center
             .col-9.col-lg-4
               figure
-                img(src="@/assets/curso/temas/tema1/img23.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img23.svg", alt="alt")
 
             .col-lg-8
               p La red de área metropolitana hace referencia a la red que conecta diferentes redes LAN que geográficamente no están muy distanciadas unas de otras. Por ejemplo, en una empresa o universidad que tenga varios edificios o bloques la red MAN sería la encargada de conectar las LAN de cada uno.
@@ -384,7 +384,7 @@
           .row(titulo="Red WAN").justify-content-center
             .col-9.col-lg-4
               figure
-                img(src="@/assets/curso/temas/tema1/img24.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt")
 
             .col-lg-8
               p La red de área metropolitana hace referencia a la red que conecta diferentes redes LAN que geográficamente no están muy distanciadas unas de otras. Por ejemplo, en una empresa o universidad que tenga varios edificios o bloques la red MAN sería la encargada de conectar las LAN de cada uno.
@@ -392,7 +392,7 @@
           .row(titulo="Otras clasificaciones").justify-content-center
             .col-9.col-lg-4
               figure
-                img(src="@/assets/curso/temas/tema1/img25.png", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt")
 
             .col-lg-8
               p Red de área amplia, este concepto incluye a las redes que conectan múltiples equipos y las redes más pequeñas separadas por amplias distancias. Dentro de este grupo es donde se suele clasificar al Internet, la red más grande del planeta.
@@ -407,18 +407,18 @@
     .row.justify-content-center
       .col-6.col-lg-2.mb-4(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/tema1/img26.png", alt="alt").img-flotante
+          img(src="@/assets/curso/temas/tema1/img26.svg", alt="alt").img-flotante
       .col-lg-10
         p El propósito principal de las redes es la transferencia de información; para que esto ocurra, internamente se deben ejecutar varios protocolos o servicios. Su propósito es hacer más fácil la experiencia del usuario o directamente prestar algún tipo de beneficio mediante la combinación de #[i software] y #[i hardware]. Normalmente cada servicio está alojado en algún equipo (servidor), que posee las características técnicas necesarias para efectuar dicha función.  
         p Estos son algunos de los servicios más comunes:
 
     .row.my-5  
-      ImagenInfografica.color-acento-botones
+      ImagenInfografica.color-acento-botones.mt-5.d-none.d-md-block
         template(v-slot:imagen)
           figure
             img(src="@/assets/curso/temas/tema1/img27.png", alt="alt")
 
-        .tarjeta.color-secundario.p-3(x="11.3%" y="70%" numero="")
+        .tarjeta.color-secundario.p-3(x="11.3%" y="70%" numero="").boton1
           .h5.mb-2 Servicios relacionados al acceso y conexión
           p Control de acceso, servidores con bases de datos que almacenan usuarios y contraseñas para permitir el acceso a determinados equipos o archivos, acceso remoto, servicios para acceder de manera remota a otro equipo.
 
@@ -437,6 +437,33 @@
         .tarjeta.color-secundario.p-3(x="89%" y="70%" numero="")
           .h5.mb-2 Protocolos de administración de red
           p Por ejemplo, el MSNM O protocolo de administración simple en la Red, que ayudan en la administración y monitoreo de esta.
+
+    .row.my-5  
+      ImagenInfografica.color-acento-botones.mt-5.d-block.d-md-none
+        template(v-slot:imagen)
+          figure
+            img(src="@/assets/curso/temas/tema1/img27.png", alt="alt")
+
+        .tarjeta.color-secundario.p-3(x="12.7%" y="70%" numero="").boton1
+          .h5.mb-2 Servicios relacionados al acceso y conexión
+          p Control de acceso, servidores con bases de datos que almacenan usuarios y contraseñas para permitir el acceso a determinados equipos o archivos, acceso remoto, servicios para acceder de manera remota a otro equipo.
+
+        .tarjeta.color-secundario.p-3(x="31.5%" y="54.7%" numero="")
+          .h5.mb-2 Servicios de Red
+          p DHCP este servicio se encarga de asignar de manera automática las direcciones IP a cada equipo que se conecte a la Red, la asignación se basa en una serie de reglas preestablecidas y configuradas en el equipo; DNS El servicio de nombre del dominio, permite traducir las URL o direcciones de acceso en el IP asignados al equipo al que se quiere acceder, en la Rare los equipos y servidores, no se identifican por su nombre o URL lo que hacen por IP, ese servicio permite digitar el nombre del servidor y ser direcciones a su IP.
+
+        .tarjeta.color-secundario.p-3(x="50.1%" y="70%" numero="")
+          .h5.mb-2 Servicios operativos
+          p Servicio de correo, impresión compartida, edición de línea de archivos.
+
+        .tarjeta.color-secundario.p-3(x="68.7%" y="54.7%" numero="")
+          .h5.mb-2 Servicio para transferencia y almacenamiento de archivos
+          p Protocolo FTP es el usado para enviar información, bases de datos y servidores de almacenamiento.
+
+        .tarjeta.color-secundario.p-3(x="87.5%" y="70%" numero="")
+          .h5.mb-2 Protocolos de administración de red
+          p Por ejemplo, el MSNM O protocolo de administración simple en la Red, que ayudan en la administración y monitoreo de esta.
+
 
     separador
 
@@ -586,7 +613,7 @@
         .tarjeta.tarjeta--gris4.p-4(titulo="<i>Software</i> para monitoreo y <br>administración de la red")
           p Máquinas virtuales, escritorios remotos, #[i software] de supervisión y control de la red, #[i software] instalado en los equipos de red que permiten la ejecución de servicios y la configuración para el funcionamiento de la red.
 
-        .tarjeta.tarjeta--gris.p-4(titulo="<i>Software</i>  para uso operativo ")
+        .tarjeta.tarjeta--gris4.p-4(titulo="<i>Software</i>  para uso operativo ")
           p Herramientas de diseño, procesadores de texto, hojas de cálculo y otros usados para realizar actividades específicas de la compañía.
 
         .tarjeta.tarjeta--gris4.p-4(titulo="<i>Software</i> enfocado <br>en la comunicación ")
