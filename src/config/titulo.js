@@ -1,1 +1,1 @@
-module.exports = ''
+module.exports = 'Clasificación e inventariado de activos tecnológicos'
