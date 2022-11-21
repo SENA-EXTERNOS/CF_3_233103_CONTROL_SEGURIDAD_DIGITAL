@@ -396,7 +396,7 @@
                 img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt")
 
             .col-lg-8
-              p Las redes también se clasifican, por ejemplo, por su topología, es decir, la forma como se conectan los equipos de usuario (host) con el equipo de red (switch, router, HUB), se clasifican por la tecnología o protocolos y capacidad, como sucede con las redes 4G, 5G, GSM, por el medio de transmisión usado, fibra óptica, Ethernet, HTC o wifi.
+              p Las redes también se clasifican, por ejemplo, por su topología, es decir, la forma como se conectan los equipos de usuario (#[i host]) con el equipo de red (#[i switch, router], HUB), se clasifican por la tecnología o protocolos y capacidad, como sucede con las redes 4G, 5G, GSM, por el medio de transmisión usado, fibra óptica, Ethernet, HTC o wifi.
 
     separador
 
@@ -496,7 +496,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong HUB o concentrador:]  dispositivos que concentran la conexión de varios equipos para transmitir una misma señal, en la actualidad su uso es reducido y en general su función puede ser realizada por un switch, su labor se limita a recibir y repetir información.
+                    p #[strong HUB o concentrador:]  dispositivos que concentran la conexión de varios equipos para transmitir una misma señal, en la actualidad su uso es reducido y en general su función puede ser realizada por un #[i switch], su labor se limita a recibir y repetir información.
 
                 ul.lista-ul
                   li 
@@ -512,7 +512,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong Switch:]  son elementos fundamentales de las redes LAN su función es permitir la conexión de otros equipos, desde ellos se asignan las direcciones IP y se regula el tráfico de datos a nivel interno de la red de área local, también permiten realizar otro tipo de gestiones como el DHCP y la gestión de Van, existen #[i Switch] administrables ( configurables) y no administrables (configuran de forma rápida y automática la red).
+                    p #[strong #[i Switch:]]  son elementos fundamentales de las redes LAN su función es permitir la conexión de otros equipos, desde ellos se asignan las direcciones IP y se regula el tráfico de datos a nivel interno de la red de área local, también permiten realizar otro tipo de gestiones como el DHCP y la gestión de Van, existen #[i Switch] administrables ( configurables) y no administrables (configuran de forma rápida y automática la red).
 
                 ul.lista-ul
                   li 
@@ -522,7 +522,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong Servidores:]  son equipos de características de #[i hardware] y #[i software] especiales para ejecutar uno o varios servicios solicitados por os diferente host de la red. 
+                    p #[strong Servidores:]  son equipos de características de #[i hardware] y #[i software] especiales para ejecutar uno o varios servicios solicitados por os diferente #[i host] de la red. 
 
                 ul.lista-ul
                   li 

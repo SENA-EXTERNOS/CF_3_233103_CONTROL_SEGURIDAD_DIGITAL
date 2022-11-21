@@ -255,7 +255,7 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img21.png", alt="alt")             
             .col-md-6            
-              p.texto-azul.text-center Registrar en el sistema correspondiente el inventario bajo los parámetros establecidos con el software o sistema elegido para dicho fin.
+              p.texto-azul.text-center Registrar en el sistema correspondiente el inventario bajo los parámetros establecidos con el #[i software] o sistema elegido para dicho fin.
           
           .row.justify-content-center(titulo="")          
             .col-md-5.mt-5             
