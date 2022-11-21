@@ -150,7 +150,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt").img-flotante
       .col-lg-10
-        p Para comprender de manera más fácil los conceptos de las redes de datos, es importante comprender cómo viaja la información entre los dispositivos de la red, y para explicarlo de manera sencilla, diremos que en su gran mayoría las máquinas ‘hablan’ unas con otras mediante la transmisión de secuencias de bits. El bit, es la unidad mínima de información en informática. Mediante la unión de cadenas de hasta millones de bits se forman códigos, que luego pueden ser traducidos por el programa adecuado en texto, material multimedia o instrucciones, los bits solo pueden contener dos diferentes estados o valores: el cero (0) y el uno (1), símbolos usados para representar los dos posibles estados de un bit en el sistema binario, ya que los dispositivos funcionan mediante señales eléctricas. Estos estados representan la presencia o ausencia de señal eléctrica.
+        p Para comprender de manera más fácil los conceptos de las redes de datos, es importante comprender cómo viaja la información entre los dispositivos de la red, y para explicarlo de manera sencilla, diremos que en su gran mayoría las máquinas ‘hablan’ unas con otras mediante la transmisión de secuencias de #[i bits]. El #[i bit], es la unidad mínima de información en informática. Mediante la unión de cadenas de hasta millones de #[i bits] se forman códigos, que luego pueden ser traducidos por el programa adecuado en texto, material multimedia o instrucciones, los #[i bits] solo pueden contener dos diferentes estados o valores: el cero (0) y el uno (1), símbolos usados para representar los dos posibles estados de un #[i bit] en el sistema binario, ya que los dispositivos funcionan mediante señales eléctricas. Estos estados representan la presencia o ausencia de señal eléctrica.
 
     .row.justify-content-center.my-5
       .col-lg-7
@@ -184,7 +184,7 @@
             b.texto-blanco Esta cita del #[em Digital guide] de IONOS nos ayuda a entender cómo se forman las direcciones MAC: 
             br
             i.fas.fa-quote-left
-            p.texto-blanco Cada dispositivo que se conecta a una red informática requiere un adaptador de red. Este adaptador recibe un número de identificación único del fabricante, la dirección MAC. Esto permite que dispositivos como ordenadores de sobremesa, tablets o teléfonos móviles puedan ser identificados en la red y direccionados según sea necesario. La dirección MAC (Media Access Control Address) es la dirección de #[em hardware] única en el mundo de un adaptador de red. Esta dirección física se usa para identificar a un dispositivo en redes de computadoras. (IONOS, 2018).
+            p.texto-blanco Cada dispositivo que se conecta a una red informática requiere un adaptador de red. Este adaptador recibe un número de identificación único del fabricante, la dirección MAC. Esto permite que dispositivos como ordenadores de sobremesa, tablets o teléfonos móviles puedan ser identificados en la red y direccionados según sea necesario. La dirección MAC (#[em Media Access Control Address]) es la dirección de #[em hardware] única en el mundo de un adaptador de red. Esta dirección física se usa para identificar a un dispositivo en redes de computadoras. (IONOS, 2018).
             i.fas.fa-quote-right
 
     .row.justify-content-center.my-5
@@ -194,7 +194,7 @@
     .row.my-5
       h3 Protocolo TCP/IP:
 
-      p.mt-3 Los protocolos son normas o reglas que se deben seguir para que se desarrolle o ejecute correctamente algún procedimiento. En las comunicaciones, los protocolos, y específicamente el protocolo TCP/IP, es el que determina las reglas para la transmisión y procesamiento de los bits de información que viajan por la red.
+      p.mt-3 Los protocolos son normas o reglas que se deben seguir para que se desarrolle o ejecute correctamente algún procedimiento. En las comunicaciones, los protocolos, y específicamente el protocolo TCP/IP, es el que determina las reglas para la transmisión y procesamiento de los #[i bits] de información que viajan por la red.
 
     .row.my-5
       .col-2
@@ -208,6 +208,7 @@
       .col-lg-9
         figure
           img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt")        
+          figcaption Nota. Tomada de IBM (2021)
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -223,7 +224,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El protocolo define cómo deben organizarse los paquetes de bits para viajar de extremo a extremo. Dentro de este proceso, aparecen las direcciones IP (protocolo de internet), información muy importante para definir los dos extremos en la transmisión de la información, un concepto fundamental dentro de la seguridad digital. El estudio de este y otros protocolos de internet requerirá de una extensión muy amplia de información, pero, por ahora, basta con conocer su nombre e importancia dentro de la transmisión de los datos.
+        p.mb-0 El protocolo define cómo deben organizarse los paquetes de #[i bits] para viajar de extremo a extremo. Dentro de este proceso, aparecen las direcciones IP (protocolo de internet), información muy importante para definir los dos extremos en la transmisión de la información, un concepto fundamental dentro de la seguridad digital. El estudio de este y otros protocolos de internet requerirá de una extensión muy amplia de información, pero, por ahora, basta con conocer su nombre e importancia dentro de la transmisión de los datos.
 
     .row.my-5
       h3 Direcciones IP públicas y privadas
@@ -319,7 +320,7 @@
               td Administra la transferencia de datos. Asimismo, garantiza que los datos recibidos sean idénticos a los transmitidos.
 
             tr
-              td.text-center 2
+              td.text-center 3
               td.text-center Red
               td Administra las direcciones de datos y la transferencia entre redes. 
 
@@ -363,7 +364,7 @@
                 img(src="@/assets/curso/temas/tema1/img21.svg", alt="alt")
 
             .col-lg-8
-              p Este tipo de red nace de un concepto relativamente nuevo en comparación con las demás, sus siglas se traducen como red de área personal, y comprende la conexión y transferencia de datos que puede existir entre los diferentes dispositivos de uso personal, como un computador personal, parlantes inalámbricos, teléfonos inteligentes, auriculares, smartwatch, entre otros. Todos se integran en función del bienestar de la persona mediante tecnologías como USB o Bluetooth.
+              p Este tipo de red nace de un concepto relativamente nuevo en comparación con las demás, sus siglas se traducen como red de área personal, y comprende la conexión y transferencia de datos que puede existir entre los diferentes dispositivos de uso personal, como un computador personal, parlantes inalámbricos, teléfonos inteligentes, auriculares, smartwatch, entre otros. Todos se integran en función del bienestar de la persona mediante tecnologías como USB o #[i Bluetooth].
 
           .row(titulo="Red LAN").justify-content-center
             .col-9.col-lg-4
@@ -371,7 +372,7 @@
                 img(src="@/assets/curso/temas/tema1/img22.svg", alt="alt")
 
             .col-lg-8
-              p Red de área local, esta es posiblemente la que más nos interese. Hace referencia a las redes que se conforman dentro de un mismo edificio, en un área relativamente cercana, o en otros términos, al conjunto de equipos conectados a un mismo enrutador. Estas redes pueden o no tener conexión a internet. Permiten el intercambio de información de manera interna y son muy comunes en oficinas, salas de sistemas, hogares o dependencias que comparten físicamente un mismo espacio. Para conformar este tipo de red es necesario implementar dispositivos de red como routers, puntos de accesos o #[i switch] de red que administren la red, controlen el tráfico de información y permitan la conexión de diferentes equipos por medios como el cable Ethernet o wifi. 
+              p Red de área local, esta es posiblemente la que más nos interese. Hace referencia a las redes que se conforman dentro de un mismo edificio, en un área relativamente cercana, o en otros términos, al conjunto de equipos conectados a un mismo enrutador. Estas redes pueden o no tener conexión a internet. Permiten el intercambio de información de manera interna y son muy comunes en oficinas, salas de sistemas, hogares o dependencias que comparten físicamente un mismo espacio. Para conformar este tipo de red es necesario implementar dispositivos de red como #[i routers], puntos de accesos o #[i switch] de red que administren la red, controlen el tráfico de información y permitan la conexión de diferentes equipos por medios como el cable Ethernet o wifi. 
 
           .row(titulo="Red MAN").justify-content-center
             .col-9.col-lg-4
@@ -387,7 +388,7 @@
                 img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt")
 
             .col-lg-8
-              p La red de área metropolitana hace referencia a la red que conecta diferentes redes LAN que geográficamente no están muy distanciadas unas de otras. Por ejemplo, en una empresa o universidad que tenga varios edificios o bloques la red MAN sería la encargada de conectar las LAN de cada uno.
+              p Red de área amplia, este concepto incluye a las redes que conectan múltiples equipos y las redes más pequeñas separadas por amplias distancias. Dentro de este grupo es donde se suele clasificar al Internet, la red más grande del planeta.
 
           .row(titulo="Otras clasificaciones").justify-content-center
             .col-9.col-lg-4
@@ -395,7 +396,7 @@
                 img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt")
 
             .col-lg-8
-              p Red de área amplia, este concepto incluye a las redes que conectan múltiples equipos y las redes más pequeñas separadas por amplias distancias. Dentro de este grupo es donde se suele clasificar al Internet, la red más grande del planeta.
+              p Las redes también se clasifican, por ejemplo, por su topología, es decir, la forma como se conectan los equipos de usuario (host) con el equipo de red (switch, router, HUB), se clasifican por la tecnología o protocolos y capacidad, como sucede con las redes 4G, 5G, GSM, por el medio de transmisión usado, fibra óptica, Ethernet, HTC o wifi.
 
     separador
 
@@ -474,14 +475,14 @@
 
     .row.my-5 
       p Hasta ahora hemos mencionado algunos aspectos generales sobre las redes, ahora es momento de mencionar los equipos y recursos que hacen posible que todos los protocolos y servicios funcionen a nivel físico (capa 1 del modelo OSI).
-      p Para explorar los equipos que pueden hacer parte de la infraestructura de redes, hacer click sobre cada título y luego sobre las imágenes. 
+      p Para explorar los equipos que pueden hacer parte de la infraestructura de redes, hacer #[i click] sobre cada título y luego sobre las imágenes. 
 
     .row.justify-content-center
       .col-lg-8
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/tema1/img28.png", alt="alt")
+              img(src="@/assets/curso/temas/tema1/img28.svg", alt="alt")
 
           .tarjeta.color-secundario.p-3(x="12.3%" y="48.1%" numero="")
             .h5.mb-2 Equipos de red
@@ -500,7 +501,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong Router o enrutador:]  es un dispositivo que opera en la capa 3 del modelo OSI, su principal función es establecer las rutas para que los paquetes de datos viajen a través de la red, permite interconectar diferentes redes LAN, algunos incluyen funciones de #[i switch] y/o de punto de acceso inalámbrico.
+                    p #[strong #[i Router] o enrutador:]  es un dispositivo que opera en la capa 3 del modelo OSI, su principal función es establecer las rutas para que los paquetes de datos viajen a través de la red, permite interconectar diferentes redes LAN, algunos incluyen funciones de #[i switch] y/o de punto de acceso inalámbrico.
 
                 ul.lista-ul
                   li 
@@ -516,7 +517,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong Puntos de acceso AP:]  dispositivos diseñados para permitir la conexión inalámbrica a la red, algunos incluyen funciones de #[i switch] o incluso de router para redes de baja capacidad y pocos usuarios.
+                    p #[strong Puntos de acceso AP:]  dispositivos diseñados para permitir la conexión inalámbrica a la red, algunos incluyen funciones de #[i switch] o incluso de #[i router] para redes de baja capacidad y pocos usuarios.
 
                 ul.lista-ul
                   li 
@@ -577,7 +578,7 @@
                   img(src="@/assets/curso/temas/tema1/img32.png", alt="alt") 
 
           .tarjeta.color-secundario.p-3(x="87.8%" y="47.1%" numero="")
-            .h5.mb-2 Sistema eléctrico
+            .h5.mb-2 Red eléctrico
             p Es la red eléctrica encargada de dar energía a todos los equipos de la red, se incluyen también los equipos de protección, reguladores y sistemas de respaldo energético o UPS, encargados de garantizar las condiciones eléctricas necesarias para el buen funcionamiento de los equipos.
 
             .row.justify-content-center.my-3

@@ -44,7 +44,8 @@
 
     LineaTiempoD.color-primario
       .row(numero="1" titulo="Definición").p-3
-        .col-md-8.mb-4.mb-md-0          p Entendamos por inventario un documento de carácter técnico desarrollado, en la mayoría de los casos, de manera digital sobre algún #[i software], el cual permite trabajar de manera confiable y ágil el registro, búsqueda, seguimiento y control de cada uno de los activos, bienes físicos y digitales que posee la empresa.
+        .col-md-8.mb-4.mb-md-0          
+          p Entendamos por inventario un documento de carácter técnico desarrollado, en la mayoría de los casos, de manera digital sobre algún #[i software], el cual permite trabajar de manera confiable y ágil el registro, búsqueda, seguimiento y control de cada uno de los activos, bienes físicos y digitales que posee la empresa.
           p El inventario se convierte en una pieza fundamental para la toma de decisiones y la gestión de los recursos de una empresa. Permite tener conocimiento y control del conjunto de elementos propiedad de la empresa, al conocer con qué se cuenta y tener una visión más clara de las adquisiciones necesarias de la empresa, para ahorrar tiempo y evitar pérdidas de producto, compras innecesarias, baja utilización de algunos activos o la pérdida de estos.
       
         .col-md-4.mt-5
@@ -203,18 +204,18 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img16.png", alt="alt")             
             .col-md-7.mt-5             
-              p.texto-azul Establecer previamente las responsabilidades, tiempos y recursos necesarios para realizar dicha actividad.
+              p.texto-azul.text-center Establecer previamente las responsabilidades, tiempos y recursos necesarios para realizar dicha actividad.
 
           .row.justify-content-center(titulo="")
             .col-md-5.mt-4            
-              p.texto-azul Tener claridad sobre el uso y registro de los recursos en los instrumentos y herramientas tecnológicas que usarán para realizar el inventario. De ser necesario, primero deben realizarse jornadas de capacitación sobre el uso de dichos recursos.            
+              p.texto-azul.text-center Tener claridad sobre el uso y registro de los recursos en los instrumentos y herramientas tecnológicas que usarán para realizar el inventario. De ser necesario, primero deben realizarse jornadas de capacitación sobre el uso de dichos recursos.            
             .col-md-6
               figure
                 img(src="@/assets/curso/temas/tema2/img17.png", alt="alt")
                        
           .row.justify-content-center(titulo="")
             .col-md-7.mt-5         
-              p.texto-azul.text-center   Previamente, se deberá establecer el sistema de codificación, serialización o etiquetado que se usará para registrar los activos; este tema se ampliará en la siguiente sección. la Guía para la Gestión y Clasificación de Activos de Información de MINTIC (2016), indica que se deben incluir los siguientes parámetros para cada ítem del inventario:
+              p.texto-azul.text-center Previamente, se deberá establecer el sistema de codificación, serialización o etiquetado que se usará para registrar los activos; este tema se ampliará en la siguiente sección. la Guía para la Gestión y Clasificación de Activos de Información de MINTIC (2016), indica que se deben incluir los siguientes parámetros para cada ítem del inventario:
               ul.lista-ul--color.texto-azul.ps-5
                 li 
                   i.fas.fa-check
@@ -254,7 +255,7 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img21.png", alt="alt")             
             .col-md-6            
-              p.texto-azul.text-center Establecer previamente las responsabilidades, tiempos y recursos necesarios para realizar dicha actividad.
+              p.texto-azul.text-center Registrar en el sistema correspondiente el inventario bajo los parámetros establecidos con el software o sistema elegido para dicho fin.
           
           .row.justify-content-center(titulo="")          
             .col-md-5.mt-5             

@@ -280,7 +280,8 @@ export default {
     {
       referencia:
         'Tanenbaum A, y Wetherall D (2008). <i>Redes de computadoras</i> (5 ed.). Pearson.',
-      link: '',
+      link:
+        'https://bibliotecavirtualapure.files.wordpress.com/2015/06/redes_de_computadoras-freelibros-org.pdf',
     },
   ],
   creditos: {
