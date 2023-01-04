@@ -17,7 +17,9 @@
             img(src="@/assets/template/arrastrar_soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
 
-        p.mb-4.mt-5 En la presente actividad se deberá relacionar cada uno de los enunciados o definiciones con su respectivo concepto, tenga presente revisar antes el contenido formativo y esté atento a la realimentación.
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+
+        p De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

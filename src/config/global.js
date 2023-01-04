@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Clasificación e inventariado de activos tecnológicos',
     descripcionCurso:
-      'En este nuevo componente nos ocuparemos en la tarea de identificar, clasificar y elaborar el inventario de los activos tecnológicos del sistema de información de la empresa. Para esto, trabajaremos sobre dos conceptos muy importantes y hablaremos de las redes de datos, para poder identificar sus componentes y así enfocarnos en cómo realizar el inventario de activos tecnológicos.',
+      'Este componente formativo aborda aspectos clave de la identificación, clasificación y elaboración del inventario de activos tecnológicos del sistema de información de la empresa. El aprendiz se afianzará en conceptos fundamentales generalidades sobre redes de datos e identificación de sus componentes y, así, enfocarse en la realización del inventario de activos tecnológicos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -41,8 +41,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Fundamentos de redes de datos con énfasis en la identificación de activos tecnológicos',
+        titulo: 'Redes de datos, identificación de activos tecnológicos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -54,32 +53,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Tipos y clasificación de redes de datos',
+            titulo: 'Clasificación de redes y servicios de red',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Servicios de red, seguridad y configuraciones básicas',
+            titulo: 'Infraestructura lógica y activos digitales',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Infraestructura física',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infraestructura lógica',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Activos digitales',
-            hash: 't_1_6',
           },
         ],
       },
@@ -90,40 +71,6 @@ export default {
         numero: '2',
         titulo: 'Inventario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Definición, objeto y características de un inventario',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Categorización de inventarios',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Técnicas para el registro de inventarios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo:
-              'Métodos de identificación y Gestión de archivos e información digital',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo:
-              'Herramientas tecnológicas y recursos para la realización de inventarios',
-            hash: 't_2_5',
-          },
-        ],
       },
     ],
     subMenu: [
