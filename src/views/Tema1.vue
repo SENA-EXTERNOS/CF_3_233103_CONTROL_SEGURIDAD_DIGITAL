@@ -71,23 +71,7 @@
                     span Descargar
                     i.fas.fa-file-download
 
-    .row.justify-content-center.my-5
-      .col-lg-10
-        .tarjeta.color-secundario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-4.col-sm-2.col-lg-2
-              img(src="@/assets/curso/temas/tema1/img4.png").img3-tm1
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p #[strong Anexo 2.] 
-                  | #[.text-small Simulación_y_configuración_de_redes_con_#[i Packet_Tracer] y Carpeta #[i Software] Descargar]
-                   
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexo_2--Simulacion_y_configuracion_de_redes_con_Packet_Tracer.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-
+    
     .row.my-5
       p Otros términos claves, asociados a las redes, son:
 
@@ -199,13 +183,13 @@
         .titulo-sexto.color-primario.mb-3
           h5 Figura 1
           br
-          i Capas del protocolo TCP/IP. 
+          i Capas del protocolo TCP/IP
 
     .row.justify-content-center.my-5
       .col-lg-9
         figure
           img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt")        
-          figcaption Nota. Tomada de IBM (2021)
+          figcaption Nota: Tomada de IBM (2021)
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -222,7 +206,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img15.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 El protocolo define cómo deben organizarse los paquetes de #[i bits] para viajar de extremo a extremo. Dentro de este proceso, aparecen las direcciones IP (protocolo de internet), información muy importante para definir los dos extremos en la transmisión de la información, un concepto fundamental dentro de la seguridad digital. El estudio de este y otros protocolos de internet requerirá de una extensión muy amplia de información, pero, por ahora, basta con conocer su nombre e importancia dentro de la transmisión de los datos.
+          p.mb-0 El protocolo define cómo deben organizarse los paquetes de #[i bits] para viajar de extremo a extremo. Dentro de este proceso, aparecen las direcciones IP (protocolo de internet), información muy importante para definir los dos extremos en la transmisión de la información, un concepto fundamental dentro de la seguridad digital.
 
     .row.my-5
       h3 Direcciones IP públicas y privadas
@@ -347,11 +331,15 @@
     #t_1_2
 
     .titulo-segundo.color-acento-contenido.my-5
-      h2 1.2  Tipos y clasificación de redes de datos
+      h2 1.2  Clasificación de redes y servicios de red
 
     .row.my-5    
-      p Otro concepto de las redes que ayuda ampliamente a identificar y clasificar los activos es comprender cómo se categorizan las redes, específicamente hablando de su dimensión.
-      p A continuación, se mencionan los tipos de redes según su área de cobertura:
+      .col-lg-1
+        figure
+          img(src="@/assets/curso/temas/tema1/img44.png", alt="alt")
+      .col-lg-11
+        p Otro concepto de las redes que ayuda ampliamente a identificar y clasificar los activos es comprender cómo se categorizan las redes, específicamente hablando de su dimensión.
+        p A continuación, se mencionan los tipos de redes según su área de cobertura:
 
     .row.justify-content-center.my-5
       .col-lg-9
@@ -414,14 +402,14 @@
       ImagenInfograficaB.color-acento-botones.mt-5.d-none.d-md-block
         template(v-slot:imagen)
           figure
-            img(src="@/assets/curso/temas/tema1/img27.png", alt="alt")
+            img(src="@/assets/curso/temas/tema1/img27.svg", alt="alt")
 
         .tarjeta.color-secundario.p-3.taj_alt(x="11.3%" y="70%" numero="").boton1
           .h5.mb-2 Servicios relacionados al acceso y conexión
           p Control de acceso, servidores con bases de datos que almacenan usuarios y contraseñas para permitir el acceso a determinados equipos o archivos, acceso remoto, servicios para acceder de manera remota a otro equipo.
 
         .tarjeta.color-secundario.p-3.taj_alt(x="30.7%" y="54.7%" numero="")
-          .h5.mb-2 Servicios de Red
+          .h5.mb-2 Servicios de red
           p DHCP este servicio se encarga de asignar de manera automática las direcciones IP a cada equipo que se conecte a la Red, la asignación se basa en una serie de reglas preestablecidas y configuradas en el equipo; DNS El servicio de nombre del dominio, permite traducir las URL o direcciones de acceso en el IP asignados al equipo al que se quiere acceder, en la Rare los equipos y servidores, no se identifican por su nombre o URL lo que hacen por IP, ese servicio permite digitar el nombre del servidor y ser direcciones a su IP.
 
         .tarjeta.color-secundario.p-3.taj_alt_1(x="50.1%" y="70%" numero="")
@@ -440,7 +428,7 @@
       ImagenInfograficaB.color-acento-botones.mt-5.d-block.d-md-none
         template(v-slot:imagen)
           figure
-            img(src="@/assets/curso/temas/tema1/img27.png", alt="alt")
+            img(src="@/assets/curso/temas/tema1/img27.svg", alt="alt")
 
         .tarjeta.color-secundario.p-3(x="12.7%" y="70%" numero="").boton1
           .h5.mb-2 Servicios relacionados al acceso y conexión
@@ -466,8 +454,9 @@
     h3 Infraestructura física
 
     .row.my-5 
-      p Hasta ahora hemos mencionado algunos aspectos generales sobre las redes, ahora es momento de mencionar los equipos y recursos que hacen posible que todos los protocolos y servicios funcionen a nivel físico (capa 1 del modelo OSI).
-      p Para explorar los equipos que pueden hacer parte de la infraestructura de redes, hacer #[i click] sobre cada título y luego sobre las imágenes. 
+      p Hasta este punto, usted ha tenido acercamiento con aspectos de las redes; ahora, se mencionarán equipos y recursos que hacen posible que todos los protocolos y servicios funcionen a nivel físico.
+
+      p Conozca más y mejor, los equipos que pueden hacer parte de la infraestructura de redes. Para ello, explore con atención el recurso que se muestra a continuación:
 
     .row.justify-content-center
       .col-lg-8

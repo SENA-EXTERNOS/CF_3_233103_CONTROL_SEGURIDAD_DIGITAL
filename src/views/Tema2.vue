@@ -35,7 +35,7 @@
       p Habiéndose familiarizado con los aspectos generales sobre los inventarios, conozca más sobre la forma de documentarlo, definirlo, establecer los objetivos y características del mismo.
       p Explore el recurso que se muestra enseguida; explore cada diapositiva y haga lectura atenta de los aspectos que configuran el proceso de inventario. 
 
-    LineaTiempoD.color-primario
+    LineaTiempoD.color-primario.mb-5
       .row(numero="1" titulo="Definición").p-3
         .col-md-8.mb-4.mb-md-0          
           p Documento de carácter técnico desarrollado, en la mayoría de los casos, digitalmente sobre algún software, el cual permite trabajar de manera confiable y ágil el registro, búsqueda, seguimiento y control de cada uno de los activos, bienes físicos y digitales que posee la empresa.
@@ -261,7 +261,7 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img24.png", alt="alt")             
 
-    h3 Métodos de identificación y Gestión de archivos e información digital
+    h3 Identificación y gestión de archivos e información digital
 
     .row.justify-content-center.mt-5
       .col-lg-5.my-3
@@ -274,10 +274,6 @@
 
     .row.mb-5.mt-3
       h3 Parámetros a tener en cuenta:
-
-    .row.mb-5.mt-3
-      p La Guía para la Gestión y Clasificación de Activos de Información de MINTIC (2016), define cuatro parámetros que se deben tener en cuenta a la hora de clasificar e identificar los activos de la información, parámetros de clasificación y los datos que se deberían especificar de cada activo:
-
 
     .row.justify-content-center.mt-5
       .tarjeta--container.row.mb-5

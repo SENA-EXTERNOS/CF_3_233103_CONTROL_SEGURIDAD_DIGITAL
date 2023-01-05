@@ -115,27 +115,27 @@ export default {
   },
   complementario: [
     {
-      tema: 'Clasificación de redes de datos',
+      tema: 'Redes de datos, identificación de activos tecnológicos',
       referencia:
-        'IONOS (2019). <i>Conoce los tipos de redes más importantes.</i>',
+        'IONOS. (2019). <i>Conoce los tipos de redes más importantes</i>. ',
       tipo: 'Artículo',
       link:
         'https://www.ionos.es/digitalguide/servidores/know-how/los-tipos-de-redes-mas-conocidos/#:~:text=Local%20Area%20Networks%20(LAN)%20o,o%20red%20de%20%C3%A1rea%20global',
     },
     {
-      tema: 'Infraestructura física y cableado estructurado',
+      tema: 'Redes de datos, identificación de activos tecnológicos',
       referencia:
-        'Znet IT Solutions (s.f.). <i>Qué es la infraestructura de redes y el cableado estructurado.</i> ',
+        'Znet IT Solutions. (s.f.). <i>Qué es la infraestructura de redes y el cableado estructurado.</i> ',
       tipo: 'Artículo',
       link:
         'https://www.z-net.com.ar/blog-post/que-es-la-infraestructura-de-redes-y-el-cableado-estructurado/',
     },
     {
-      tema: 'Qué es un <i>firewall</i>',
+      tema: 'Redes de datos, identificación de activos tecnológicos',
       referencia: 'Cisco (s.f.). <i>¿Qué es un firewall?</i>',
       tipo: 'artículo',
       link:
-        'https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html#~tipos-de-firewalls ',
+        'https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html#~tipos-de-firewalls',
     },
   ],
   glosario: [
@@ -183,6 +183,11 @@ export default {
       termino: 'Protocolo',
       significado:
         'En redes corresponde al conjunto de reglas y a la estructura en la cual debe transmitirse la información para llegar a su destino.',
+    },
+    {
+      termino: '<i>Switch</i>',
+      significado:
+        'Dispositivo para unir o conectar computadoras u otros dispositivos en red.',
     },
   ],
   referencias: [
