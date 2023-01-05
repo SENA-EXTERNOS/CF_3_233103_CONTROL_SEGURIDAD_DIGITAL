@@ -410,7 +410,7 @@
 
         .tarjeta.color-secundario.p-3.taj_alt(x="30.7%" y="54.7%" numero="")
           .h5.mb-2 Servicios de red
-          p DHCP este servicio se encarga de asignar de manera automática las direcciones IP a cada equipo que se conecte a la Red, la asignación se basa en una serie de reglas preestablecidas y configuradas en el equipo; DNS El servicio de nombre del dominio, permite traducir las URL o direcciones de acceso en el IP asignados al equipo al que se quiere acceder, en la Rare los equipos y servidores, no se identifican por su nombre o URL lo que hacen por IP, ese servicio permite digitar el nombre del servidor y ser direcciones a su IP.
+          p DHCP este servicio se encarga de asignar de manera automática las direcciones IP a cada equipo que se conecte a la Red, la asignación se basa en una serie de reglas preestablecidas y configuradas en el equipo; DNS El servicio de nombre del dominio, permite traducir las URL o direcciones de acceso en el IP asignados al equipo al que se quiere acceder, en las redes los equipos y servidores, no se identifican por su nombre o URL lo que hacen por IP, ese servicio permite digitar el nombre del servidor y ser direcciones a su IP.
 
         .tarjeta.color-secundario.p-3.taj_alt_1(x="50.1%" y="70%" numero="")
           .h5.mb-2 Servicios operativos
