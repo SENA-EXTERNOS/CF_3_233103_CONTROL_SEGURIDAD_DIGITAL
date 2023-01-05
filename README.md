@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF_3_233103_CONTROL_SEGURIDAD_DIGITAL/#/](https://sena-externos.github.io/CF_3_233103_CONTROL_SEGURIDAD_DIGITAL/#/)
 
 #
 
