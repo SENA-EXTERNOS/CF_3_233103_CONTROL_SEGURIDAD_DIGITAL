@@ -54,7 +54,7 @@
       h3 Fundamentos IPV4 y Simulación de redes
       p Profundice en los conceptos de redes, datos y computadoras, consultando:
 
-    .row.justify-content-center.my-5
+    .row.justify-content-center.mt-5
       .col-lg-10
         .tarjeta.color-secundario.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -64,12 +64,30 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p #[strong Anexo 1.] 
-                  | #[.text-small Fundamentos IPV4]
+                  p Fundamentos IPV4
                    
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexo_1--Fundamentos_de_IPV4.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
+
+    .row.justify-content-center.mt-2
+      .col-lg-10
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema1/img4.png").img3-tm1
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p #[strong Anexo 2.] 
+                  p Simulación y configuración de redes con Packet Tracer y Carpeta #[i Software]
+                   
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexo_2--Simulacion_y_configuracion_de_redes_con_Packet_Tracer.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
 
     
     .row.my-5
