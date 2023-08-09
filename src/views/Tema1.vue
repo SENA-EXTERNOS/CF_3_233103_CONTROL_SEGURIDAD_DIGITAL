@@ -93,14 +93,14 @@
     .row.my-5
       p Otros términos claves, asociados a las redes, son:
 
-    .row.my-5
+    .row
       h3 Computadora:
 
-    .row.justify-content-center.align-items-center.my-5
+    .row.justify-content-center.align-items-center
       .col-lg-5.my-5(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")
-      .col-lg-7.text-small
+      .col-lg-7
         p Normalmente, piensa en un equipo de escritorio o portátil; pero para tener una definición precisa sobre el término #[b “computadora u ordenador”], se puede hacer referencia a cualquier dispositivo electrónico diseñado y programado para almacenar información y ejecutar una o varias labores. Una computadora es un dispositivo dotado de recursos a nivel físico, es decir, un #[i hardware], el cual posee programas #[i (software)] para cumplir su propósito.  
 
         p Bajo este concepto y añadiendo la capacidad de conectarse e intercambiar información con otros equipos similares y compatibles, entran aquí gran variedad de dispositivos, como PC de escritorio, portátiles, #[i smartphones], tabletas e incluso, en la actualidad, el internet de las cosas (IOTA). También otros dispositivos como sensores, aparatos de medición, sistemas automáticos y un sinfín de productos electrónicos entrarían dentro de esta definición. Es por esto que hoy en día las redes no serán algo exclusivo de los típicos computadores, y en consecuencia, en especial a nivel de redes, se deja a un lado el concepto de computador para usar los conceptos de cliente y servidor, según corresponda, para hacer referencia a los dispositivos que usan las redes de datos. 
