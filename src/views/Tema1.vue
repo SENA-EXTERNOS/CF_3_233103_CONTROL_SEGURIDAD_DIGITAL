@@ -300,39 +300,34 @@
 
           tbody
             tr
-              td.text-center 7 
-              td.text-center Aplicación
-              td Se compone de los servicios y aplicaciones de comunicación estándar que puede utilizar todo el mundo. 
-
+              td.text-center 1
+              td.text-center Física
+              td Define las características del #[i hardware] de red.  
             tr
-              td.text-center 6
-              td.text-center Presentación
-              td Se asegura de que la información se transfiera al sistema receptor de un modo comprensible para el sistema.
-
+              td.text-center 2
+              td.text-center Vínculo de datos
+              td Administra la transferencia de datos en el medio de red.                         
             tr
-              td.text-center 5
-              td.text-center Sesión
-              td Administra las conexiones y terminaciones entre los sistemas que cooperan.
-
+              td.text-center 3
+              td.text-center Red
+              td Administra las direcciones de datos y la transferencia entre redes.
             tr
               td.text-center 4
               td.text-center Transporte
               td Administra la transferencia de datos. Asimismo, garantiza que los datos recibidos sean idénticos a los transmitidos.
-
             tr
-              td.text-center 3
-              td.text-center Red
-              td Administra las direcciones de datos y la transferencia entre redes. 
-
+              td.text-center 5
+              td.text-center Sesión
+              td Administra las conexiones y terminaciones entre los sistemas que cooperan.                          
             tr
-              td.text-center 2
-              td.text-center Vínculo de datos
-              td Administra la transferencia de datos en el medio de red. 
-
+              td.text-center 6
+              td.text-center Presentación
+              td Se asegura de que la información se transfiera al sistema receptor de un modo comprensible para el sistema.
             tr
-              td.text-center 1
-              td.text-center Física
-              td Define las características del #[i hardware] de red.
+              td.text-center 7 
+              td.text-center Aplicación
+              td Se compone de los servicios y aplicaciones de comunicación estándar que puede utilizar todo el mundo. 
+
 
     .row.my-5
       .tarjeta.color-primario--borde.p-2
@@ -440,7 +435,7 @@
 
         .tarjeta.color-secundario.p-3.taj_alt(x="89%" y="70%" numero="")
           .h5.mb-2 Protocolos de administración de red
-          p Por ejemplo, el MSNM O protocolo de administración simple en la Red, que ayudan en la administración y monitoreo de esta.
+          p Por ejemplo, el MSNM o protocolo de administración simple en la Red, que ayudan en la administración y monitoreo de esta.
 
     .row.my-5  
       ImagenInfograficaB.color-acento-botones.mt-5.d-block.d-md-none
@@ -511,7 +506,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong #[i Switch:]]  son elementos fundamentales de las redes LAN su función es permitir la conexión de otros equipos, desde ellos se asignan las direcciones IP y se regula el tráfico de datos a nivel interno de la red de área local, también permiten realizar otro tipo de gestiones como el DHCP y la gestión de Van, existen #[i Switch] administrables ( configurables) y no administrables (configuran de forma rápida y automática la red).
+                    p #[strong #[i Switch:]]  son elementos fundamentales de las redes LAN, su función es permitir la conexión de otros equipos, desde ellos se asignan las direcciones IP y se regula el tráfico de datos a nivel interno de la red de área local, también permiten realizar otro tipo de gestiones como el DHCP y la gestión de Van, existen #[i Switch] administrables ( configurables) y no administrables (configuran de forma rápida y automática la red).
 
                 ul.lista-ul
                   li 
@@ -521,7 +516,7 @@
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
-                    p #[strong Servidores:]  son equipos de características de #[i hardware] y #[i software] especiales para ejecutar uno o varios servicios solicitados por os diferente #[i host] de la red. 
+                    p #[strong Servidores:]  son equipos de características de #[i hardware] y #[i software] especiales para ejecutar uno o varios servicios solicitados por los diferentes #[i host] de la red. 
 
                 ul.lista-ul
                   li 
@@ -577,7 +572,7 @@
                   img(src="@/assets/curso/temas/tema1/img32.png", alt="alt") 
 
           .tarjeta.color-secundario.p-3(x="87.8%" y="47.1%" numero="")
-            .h5.mb-2 Red eléctrico
+            .h5.mb-2 Red eléctrica
             p Es la red eléctrica encargada de dar energía a todos los equipos de la red, se incluyen también los equipos de protección, reguladores y sistemas de respaldo energético o UPS, encargados de garantizar las condiciones eléctricas necesarias para el buen funcionamiento de los equipos.
 
             .row.justify-content-center.my-3

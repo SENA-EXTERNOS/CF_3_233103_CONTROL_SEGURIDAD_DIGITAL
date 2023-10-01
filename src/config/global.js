@@ -152,7 +152,7 @@ export default {
     {
       termino: 'Dirección IPV4',
       significado:
-        'Código de 32 bits mediante el cual se puede identificar un equipo en la red.',
+        'Código de 32 <em>bits</em> mediante el cual se puede identificar un equipo en la red.',
     },
     {
       termino: 'Ethernet',
@@ -162,7 +162,7 @@ export default {
     {
       termino: '<i>Host</i>',
       significado:
-        'Término usado para referirse a un equipo terminal de usuario, como un computador o smartphone.',
+        'Término usado para referirse a un equipo terminal de usuario, como un computador o <em>smartphone</em>.',
     },
     {
       termino: 'Inventario',
@@ -172,12 +172,12 @@ export default {
     {
       termino: 'Máscara de red',
       significado:
-        'Es un código de bits adicional a la dirección IP que permite identificar qué segmento de esta corresponde al identificador de la red y cuál a la identificación del equipo.',
+        'Es un código de <em>bits</em> adicional a la dirección IP que permite identificar qué segmento de esta corresponde al identificador de la red y cuál a la identificación del equipo.',
     },
     {
       termino: 'Medio de transmisión',
       significado:
-        'Es el objeto o medio sobre el cual se transfiere una señal, hay medios guiados basados en cables de cobre o fibra óptica, y tecnologías para transmisión inalámbrica como las redes wifi o Bluetooth.',
+        'Es el objeto o medio sobre el cual se transfiere una señal, hay medios guiados basados en cables de cobre o fibra óptica, y tecnologías para transmisión inalámbrica como las redes <em>wifi</em> o <em>Bluetooth</em>.',
     },
     {
       termino: 'Protocolo',

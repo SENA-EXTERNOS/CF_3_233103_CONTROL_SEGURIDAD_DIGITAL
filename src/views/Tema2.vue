@@ -38,8 +38,8 @@
     LineaTiempoD.color-primario.mb-5
       .row(numero="1" titulo="Definición").p-3
         .col-md-8.mb-4.mb-md-0          
-          p Documento de carácter técnico desarrollado, en la mayoría de los casos, digitalmente sobre algún software, el cual permite trabajar de manera confiable y ágil el registro, búsqueda, seguimiento y control de cada uno de los activos, bienes físicos y digitales que posee la empresa.
-          p.mb-0 Es pieza fundamental para la toma de decisiones y la gestión de los recursos de una empresa. Favorece conocer y controlar material de la empresa. Saber con qué se cuenta ahorra tiempo y evita pérdidas de producto, compras innecesarias, baja utilización de algunos activos o la pérdida de estos.
+          p Documento de carácter técnico desarrollado, en la mayoría de los casos, digitalmente sobre algún #[em software], el cual permite trabajar de manera confiable y ágil el registro, búsqueda, seguimiento y control de cada uno de los activos, bienes físicos y digitales que posee la empresa.
+          p.mb-0 Es pieza fundamental para la toma de decisiones y la gestión de los recursos de una empresa. Favorece conocer y controlar material de la empresa. Saber con qué se cuenta, ahorra tiempo y evita pérdidas de producto, compras innecesarias, baja utilización de algunos activos o la pérdida de estos.
       
         .col-md-4.mt-5
           figure
@@ -392,7 +392,7 @@
               .col-8
                 img(src='@/assets/curso/temas/tema2/img43.svg' alt='AvatarTop')
             h3.text-center Tipo
-            p.text-center Indicar si es información, software, recurso humano, servicio u otro.
+            p.text-center Indicar si es información, #[em software], recurso humano, servicio u otro.
 
           .tarjeta.tarj_bg.p-4.h-100
             .row.justify-content-center.mb-3
