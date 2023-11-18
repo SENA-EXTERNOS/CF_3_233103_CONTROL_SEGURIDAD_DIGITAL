@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" viewBox="0 0 80 64">
+  <g id="codigo-de-barras" transform="translate(0 -0.332)">
+    <path id="Trazado_212092" data-name="Trazado 212092" d="M14,.332H2a2,2,0,0,0-2,2v12a2,2,0,1,0,4,0v-10H14a2,2,0,0,0,0-4Zm0,0" fill="#0d2380"/>
+    <path id="Trazado_212093" data-name="Trazado 212093" d="M14,268.332H4v-10a2,2,0,1,0-4,0v12a2,2,0,0,0,2,2H14a2,2,0,0,0,0-4Zm0,0" transform="translate(0 -208)" fill="#0d2380"/>
+    <path id="Trazado_212094" data-name="Trazado 212094" d="M355.332.332h-12a2,2,0,1,0,0,4h10v10a2,2,0,1,0,4,0v-12a2,2,0,0,0-2-2Zm0,0" transform="translate(-277.332 0)" fill="#0d2380"/>
+    <path id="Trazado_212095" data-name="Trazado 212095" d="M355.332,256.332a2,2,0,0,0-2,2v10h-10a2,2,0,0,0,0,4h12a2,2,0,0,0,2-2v-12A2,2,0,0,0,355.332,256.332Zm0,0" transform="translate(-277.332 -208)" fill="#0d2380"/>
+    <path id="Trazado_212096" data-name="Trazado 212096" d="M66,64.332a2,2,0,0,0-2,2v36a2,2,0,1,0,4,0v-36A2,2,0,0,0,66,64.332Zm0,0" transform="translate(-52 -52)" fill="#0d2380"/>
+    <path id="Trazado_212097" data-name="Trazado 212097" d="M108.667,64.332h4a2,2,0,0,1,2,2v36a2,2,0,0,1-2,2h-4a2,2,0,0,1-2-2v-36A2,2,0,0,1,108.667,64.332Zm0,0" transform="translate(-86.668 -52)" fill="#0d2380"/>
+    <path id="Trazado_212098" data-name="Trazado 212098" d="M172.667,64.332a2,2,0,0,0-2,2v36a2,2,0,1,0,4,0v-36A2,2,0,0,0,172.667,64.332Zm0,0" transform="translate(-138.668 -52)" fill="#0d2380"/>
+    <path id="Trazado_212099" data-name="Trazado 212099" d="M215.332,64.332h4a2,2,0,0,1,2,2v36a2,2,0,0,1-2,2h-4a2,2,0,0,1-2-2v-36A2,2,0,0,1,215.332,64.332Zm0,0" transform="translate(-173.332 -52)" fill="#0d2380"/>
+    <path id="Trazado_212100" data-name="Trazado 212100" d="M279.332,64.332a2,2,0,0,0-2,2v36a2,2,0,0,0,4,0v-36A2,2,0,0,0,279.332,64.332Zm0,0" transform="translate(-225.332 -52)" fill="#0d2380"/>
+    <path id="Trazado_212101" data-name="Trazado 212101" d="M322,64.332h4a2,2,0,0,1,2,2v36a2,2,0,0,1-2,2h-4a2,2,0,0,1-2-2v-36A2,2,0,0,1,322,64.332Zm0,0" transform="translate(-260 -52)" fill="#0d2380"/>
+  </g>
+</svg>
