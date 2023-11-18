@@ -411,31 +411,33 @@
         p El propósito principal de las redes es la transferencia de información; para que esto ocurra, internamente se deben ejecutar varios protocolos o servicios. Su propósito es hacer más fácil la experiencia del usuario o, directamente, prestar algún tipo de beneficio mediante la combinación de #[i software] y #[i hardware]. Normalmente cada servicio está alojado en algún equipo (servidor), que posee las características técnicas necesarias para efectuar dicha función.  
         p Estos son algunos de los servicios más comunes:
 
-    .row.my-5  
-      ImagenInfograficaB.color-acento-botones.mt-5.d-none.d-md-block
+
+    .row.my-5 
+      ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure
-            img(src="@/assets/curso/temas/tema1/img27.svg", alt="alt")
+            img(src='@/assets/curso/temas/tema1/img27.svg')
 
-        .tarjeta.color-secundario.p-3.taj_alt(x="11.3%" y="70%" numero="").boton1
+        .tarjeta.color-secundario.p-3(x="11.3%" y="70%" numero="")
           .h5.mb-2 Servicios relacionados al acceso y conexión
           p Control de acceso, servidores con bases de datos que almacenan usuarios y contraseñas para permitir el acceso a determinados equipos o archivos, acceso remoto, servicios para acceder de manera remota a otro equipo.
 
-        .tarjeta.color-secundario.p-3.taj_alt(x="30.7%" y="54.7%" numero="")
+        .tarjeta.color-secundario.p-3(x="30.7%" y="54.7%" numero="")
           .h5.mb-2 Servicios de red
           p DHCP este servicio se encarga de asignar de manera automática las direcciones IP a cada equipo que se conecte a la Red, la asignación se basa en una serie de reglas preestablecidas y configuradas en el equipo; DNS El servicio de nombre del dominio, permite traducir las URL o direcciones de acceso en el IP asignados al equipo al que se quiere acceder, en las redes los equipos y servidores, no se identifican por su nombre o URL lo que hacen por IP, ese servicio permite digitar el nombre del servidor y ser direcciones a su IP.
 
-        .tarjeta.color-secundario.p-3.taj_alt_1(x="50.1%" y="70%" numero="")
+        .tarjeta.color-secundario.p-3(x="50.1%" y="70%" numero="")
           .h5.mb-2 Servicios operativos
           p Servicio de correo, impresión compartida, edición de línea de archivos.
 
-        .tarjeta.color-secundario.p-3.taj_alt_1(x="69.56%" y="54.7%" numero="")
+        .tarjeta.color-secundario.p-3(x="69.56%" y="54.7%" numero="")
           .h5.mb-2 Servicio para transferencia y almacenamiento de archivos
           p Protocolo FTP es el usado para enviar información, bases de datos y servidores de almacenamiento.
 
-        .tarjeta.color-secundario.p-3.taj_alt(x="89%" y="70%" numero="")
+        .tarjeta.color-secundario.p-3(x="89%" y="70%" numero="")
           .h5.mb-2 Protocolos de administración de red
           p Por ejemplo, el MSNM o protocolo de administración simple en la Red, que ayudan en la administración y monitoreo de esta.
+
 
     .row.my-5  
       ImagenInfograficaB.color-acento-botones.mt-5.d-block.d-md-none

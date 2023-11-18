@@ -133,7 +133,7 @@ export default {
     {
       tema: 'Redes de datos, identificación de activos tecnológicos',
       referencia: 'Cisco (s.f.). <i>¿Qué es un firewall?</i>',
-      tipo: 'artículo',
+      tipo: 'Artículo',
       link:
         'https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html#~tipos-de-firewalls',
     },
